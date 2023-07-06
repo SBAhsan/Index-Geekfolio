@@ -27,7 +27,7 @@
 }
 
 .banner-char{
-    width: 300px;
+    width: 400px;
 }
 .banner-container{
     color: white;
@@ -37,18 +37,50 @@
     align-items: center;
     background-image: url('Images/blackback1.webp'),
     linear-gradient(45deg, rgb(16, 15, 15), rgb(42, 38, 38));
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .bann-head{
     font-size: 40px;
-    width: 250px;
+    width: 450px;
     margin-bottom: 10px;
 }
 .bann-para{
-    width: 300px;
+    width: 500px;
     font-size: 18px;
 }
 .bann-button{
     margin-top: 20px;
+    padding: 10px;
+    background-color: red;
+    border: none;
+}
+
+.about-container{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-head{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+.about-img{
+    width: 200px;
+    border: 10px solid white;
+}
+.ab-t-head{
+    width: 400px;
+    margin-bottom: 10px;
+}
+.ab-t-para{
+    font-size: 18px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+.about-button{
     padding: 10px;
     background-color: red;
     border: none;
